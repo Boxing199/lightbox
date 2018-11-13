@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.gallery-wrapper {
+    background: #c0c0c0;
+}
+.gallery-title {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.gallery {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.gallery a {
+    padding: 5px;
+    background: inherit;
+}
+
+.gallery a:hover {
+    background: #fff;
+    -webkit-transition: .6s;
+    transition: .6s;
+}
+
+.gallery a img {
+    width: 100%;
+    max-width: 200px;
+    height: 125px;
+}
